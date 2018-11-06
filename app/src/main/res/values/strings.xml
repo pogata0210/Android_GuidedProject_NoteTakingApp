@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NoteTaker</string>
+    <string name="add_button_text">New Note</string>
+</resources>
