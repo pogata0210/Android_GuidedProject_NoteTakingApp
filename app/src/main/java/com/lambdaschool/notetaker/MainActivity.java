@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 notes.add(System.currentTimeMillis());
-                listLayout.addView(getDefaultTextView(notes.get(notes.size() - 1).toString()));
+                int noteIndex = notes.size() - 1;
+                listLayout.addView(getDefaultTextView(notes.get(noteIndex).toString()));
                 Log.i(getLocalClassName(), notes.toString());
             }
         });
