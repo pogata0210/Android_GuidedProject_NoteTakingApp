@@ -2,3 +2,4 @@
 
 ## Contributors
 * Chance Payne
+* Erin Meredith
